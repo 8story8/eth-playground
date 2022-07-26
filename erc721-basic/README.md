@@ -14,10 +14,10 @@ $ npm install
 ```
 
 ## 이더리움 네트워크 설정
-hardhat.config.ts에서 해당 부분 설정
-networks.goerli.url : Goerli Infura URL
-networks.goerli.accounts : ERC721 컨트랙트 배포자 개인키
-etherscan.apiKey.goerli : Goerli Etherscan API Key 
+- hardhat.config.ts에서 해당 부분 설정
+- networks.goerli.url : Goerli Infura URL
+- networks.goerli.accounts : ERC721 컨트랙트 배포자 개인키
+- etherscan.apiKey.goerli : Goerli Etherscan API Key 
 ```
  networks: {
     goerli:{
