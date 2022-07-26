@@ -33,6 +33,10 @@ $ npm install
 ```
 
 ## ERC721 NFT 이미지 업로드
+- ipfs/resource/image 폴더 생성
+```
+mkdir ipfs/resource/image
+```
 - NFT 이미지를 생성하여 ipfs/resource/image에 저장
 - 1, 2, 3, ... 처럼 확장자를 제외하고 저장
 - https://app.pinata.cloud/pinmanager에 ipfs/resource/image 폴더를 업로드하여 Image CID 확인
@@ -42,6 +46,10 @@ const imageCid = "${IMAGE_CID}";
 ```
 
 ## ERC721 NFT 메타데이터 설정
+- ipfs/resource/metadata 폴더 생성
+```
+mkdir ipfs/resource/image
+```
 - NFT 메타데이터를 생성하여 ipfs/resource/metadata에 저장
 - 1, 2, 3, ... 처럼 확장자를 제외하고 저장
 - https://app.pinata.cloud/pinmanager에 ipfs/resource/metadata 폴더를 업로드하여 CID 확인
