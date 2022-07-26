@@ -48,7 +48,7 @@ const imageCid = "${IMAGE_CID}";
 ## ERC721 NFT 메타데이터 설정
 - ipfs/resource/metadata 폴더 생성
 ```
-mkdir ipfs/resource/image
+mkdir ipfs/resource/metadata
 ```
 - NFT 메타데이터를 생성하여 ipfs/resource/metadata에 저장
 - 1, 2, 3, ... 처럼 확장자를 제외하고 저장
