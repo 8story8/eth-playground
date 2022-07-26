@@ -21,13 +21,13 @@ etherscan.apiKey.goerli : Goerli Etherscan API Key
 ```
  networks: {
     goerli:{
-      url:"",
-      accounts:[""]
+      url:"${INFURA_URL}",
+      accounts:["${OWNER_PRIVATE_KEY}"]
     }
   },
   etherscan: {
     apiKey: {
-      goerli: ""
+      goerli: "${ETHERSCAN_API_KEY}"
     }
   }
 ```
