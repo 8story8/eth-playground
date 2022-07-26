@@ -85,6 +85,35 @@ module.exports = [
 npx hardhat verify --constructor-args scripts/argument.js ${ERC721_CONTRACT_ADDRESS}
 ```
 
+## ERC721 컨트랙트 실행 설정
+- scripts/config/config.ts에서 해당 부분 설정
+```
+// 배포된 ERC721 컨트랙트 주소
+const deployedAddress = "";
+
+// 3. mintGeneral.ts
+// 일반 구매자
+const buyerPrivateKey = "";
+const buyerAmount = ;
+
+// 4. mintSpecial.ts
+// 5. approve.ts
+// VIP는 Approver에게 Transfer 대행 권한을 준다.
+const vipPrivateKey = "";
+const approverPrivateKey = "";
+const tokenId = ;
+
+// 6. transfer.ts
+// 구매자 또는 Approver는 NFT를 전송한다.
+// From 주소 : 구매자 또는 Approver 개인키
+const fromPrivateKey = "";
+// To 주소
+const toAddress = "";
+// 전송할 NFT
+const transferTokenId = ;
+```
+
+
 ## ERC721 컨트랙트 메서드
 | 순서 | 메서드명 | 설명 |
 |----|----|----|
