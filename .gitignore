@@ -7,3 +7,4 @@ erc721-basic/typechain-types/
 erc721-basic/ipfs/resource/image/**
 erc721-basic/ipfs/resource/metadata/**
 erc721-basic/node_modules
+erc721-basic/scripts/argument.js

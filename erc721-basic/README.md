@@ -93,3 +93,6 @@ npx hardhat verify --constructor-args scripts/argument.js ${ERC721_CONTRACT_ADDR
 | 3 | approve | VIP가 Apporver에게 NFT 권한 부여
 | 4 | transfer | 일반 구매자/VIP/Approver가 다른 주소로 NFT 전송 
 | 5 | setTokenUri | 관리자가 Token URI 변경
+```
+npx hardhat run ${METHOD_NAME}.ts
+```
