@@ -103,9 +103,9 @@ const vipPrivateKey = "";
 const approverPrivateKey = "";
 const tokenId = ;
 
-// 6. transfer.ts
-// 구매자 또는 Approver는 NFT를 전송한다.
-// From 주소 : 구매자 또는 Approver 개인키
+// 6. transferForApproval.ts
+// VIP 대신 Approver가 NFT를 전송한다.
+// From 주소 : Approver 개인키
 const fromPrivateKey = "";
 // To 주소
 const toAddress = "";
@@ -120,7 +120,7 @@ const transferTokenId = ;
 | 1 | mintGeneral | 일반 구매자가 이더를 지불하여 NFT를 구매
 | 2 | mintSpecial | 관리자(Owner)가 VIP에게 NFT를 증정
 | 3 | approve | VIP가 Apporver에게 NFT 권한 부여
-| 4 | transfer | 일반 구매자/VIP/Approver가 다른 주소로 NFT 전송 
+| 4 | transferForApproval | VIP 대신 Approver가 다른 주소로 NFT 전송 
 | 5 | setTokenUri | 관리자가 Token URI 변경
 ```
 npx hardhat run ${METHOD_NAME}.ts

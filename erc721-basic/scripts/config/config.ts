@@ -17,16 +17,16 @@ const buyerAmount = 1;
 // VIP는 Approver에게 Transfer 대행 권한을 준다.
 const vipPrivateKey = "";
 const approverPrivateKey = "";
-const tokenId = 1;
+const tokenId = 91;
 
-// 6. transfer.ts
-// 구매자 또는 Approver는 NFT를 전송한다.
-// From 주소 : 구매자 또는 Approver 개인키
+// 6. transferForApproval.ts
+// VIP 대신 Approver가 NFT를 전송한다.
+// From 개인키 : Approver 개인키
 const fromPrivateKey = "";
 // To 주소
 const toAddress = "";
 // 전송할 NFT
-const transferTokenId = 1;
+const transferTokenId = 91;
 
 const config = {
     imageCid: imageCid,
