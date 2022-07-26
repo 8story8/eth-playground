@@ -52,10 +52,11 @@ mkdir ipfs/resource/metadata
 ```
 - NFT 메타데이터를 생성하여 ipfs/resource/metadata에 저장
 - 1, 2, 3, ... 처럼 확장자를 제외하고 저장
-- https://app.pinata.cloud/pinmanager에 ipfs/resource/metadata 폴더를 업로드하여 CID 확인
 ```
 npm run ts scripts/createMetadata.ts
 ```
+- https://app.pinata.cloud/pinmanager에 ipfs/resource/metadata 폴더를 업로드하여 CID 확인
+
 
 ## ERC721 컨트랙트 설정
 - scripts/config/config.ts에서 해당 부분 설정
