@@ -1,0 +1,8 @@
+## erc721-basic
+erc721-basic/contracts/*
+!erc721-basic/contracts/artemis/
+erc721-basic/cache/
+erc721-basic/artifacts/
+erc721-basic/typechain-types/
+erc721-basic/ipfs/resource/
+erc721-basic/node_modules
