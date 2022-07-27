@@ -123,5 +123,5 @@ const transferTokenId = ;
 | 4 | transferForApproval | VIP 대신 Approver가 다른 주소로 NFT 전송 
 | 5 | setTokenUri | 관리자가 Token URI 변경
 ```
-npx hardhat run ${METHOD_NAME}.ts
+npx hardhat run scripts/${METHOD_NAME}.ts
 ```
